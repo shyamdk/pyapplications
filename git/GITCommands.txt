@@ -1,0 +1,7 @@
+git init <<after creating the folder, to intialize git>
+git add . << ask git to track current folder>>
+git commit -m "First Commit"
+git status
+git remote add origin https://github.com/shyamdk/learn.git  <<adding remote>>
+git push origin master
+git status
