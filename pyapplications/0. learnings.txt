@@ -1,0 +1,5 @@
+Lib: difflib (on py prompt)
+import difflib
+from difflib import SequenceMatcher
+SequenceMatcher(None, "Rainn", "Rain").ratio()
+    0.8888888888888888
