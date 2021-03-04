@@ -8,3 +8,7 @@ SequenceMatcher(None, "Rainn", "Rain").ratio()
 >>> from difflib import get_close_matches
 >>> get_close_matches("rainn",["rain","help"])
 ['rain']
+>>> get_close_matches("rainn", data.keys())
+['rain', 'train', 'rainy']
+>>> get_close_matches("rainn", data.keys(), n=5) 
+['rain', 'train', 'rainy', 'grain', 'drain']
